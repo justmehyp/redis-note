@@ -1,4 +1,4 @@
-# Redis 的数据结构
+# Redis 的数据结构及其操作
 
 ## string
 类似 Java 当中的 ArrayList, string 是 redis 最基本的数据结构，是其他数据结构的基础：多个 string 就是 list, k-v 形式的 hash，其 key 和 value 都是 string，set 和 zset 本质上就是 hash。
